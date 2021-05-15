@@ -1,0 +1,515 @@
+Welcome to <--SimpNett-->, the Simplest Social Network
+Menu:
+1.Enter 1 to create an entity
+2.Enter 2 to add Customer of a Business
+3.Enter 3 to add Owner of a Business
+4.Enter 4 to add Member of a Group
+5.Enter 5 to add Member of an Organisation
+6.Enter 6 to delete entity
+7.Enter 7 to search for an entity
+8.Enter 8 to print all entities connected to some entity
+9.Enter 9 to Print All nodes
+10.Eneter 10 to post content
+11.Enter 11 to get all content posted by an entity
+12.Enter 12 to print content of all nodes linked to some node 
+13.Enter 13 to search by Content: 
+14.Enter 14 to display Menu again
+15.Enter 0 to exit 
+Enter Mode(Enter 14 to Show Menu again): 1
+Enter Type of Entity(i:Individual,b:Business,o:Organisation,g:Group)
+i
+Enter Name: Foo1
+Enter Date of Birth as day,month and year space separated: 1 1 2020
+Enter Mode(Enter 14 to Show Menu again): 1
+Enter Type of Entity(i:Individual,b:Business,o:Organisation,g:Group)
+i
+Enter Name: Foo2
+Enter Date of Birth as day,month and year space separated: 1 2 1999
+Enter Mode(Enter 14 to Show Menu again): 1
+Enter Type of Entity(i:Individual,b:Business,o:Organisation,g:Group)
+i
+Enter Name: Foo3
+Enter Date of Birth as day,month and year space separated: 2 3 1998
+Enter Mode(Enter 14 to Show Menu again): 1
+Enter Type of Entity(i:Individual,b:Business,o:Organisation,g:Group)
+g
+Enter Group Name: Close_Friend
+Enter number of Individual Members:3
+Enter Member 1 name: Foo1
+Enter Member 2 name: Foo2
+Enter Member 3 name: Foo4
+Foo4 does not exist,Do you want to add current Individual,press 1 to confirm,0 to continue: 1
+Enter Date of Birth as day,month and year space separated: 1 1 2000
+Enter number of Business Members:3
+Enter Business 1 name: Fio
+Fio does not exist,Do you want to add current Business,press 1 to confirm,0 to continue: 1
+Enter Location x and y coordinates space separated: 9 1
+Enter number of Owners:1
+Enter Owner 1 name: Fikh
+Fikh does not exist,Do you want to add current Individual,press 1 to confirm,0 to continue: 1
+Enter Date of Birth as day,month and year space separated: 1 2 1999
+Enter number of Customers:2
+Enter Customer 1 name: Foo1
+Enter Customer 2 name: Foo2
+Enter Business 2 name: Fazon
+Fazon does not exist,Do you want to add current Business,press 1 to confirm,0 to continue: 1
+Enter Location x and y coordinates space separated: 4 3
+Enter number of Owners:1
+Enter Owner 1 name: Foo4
+Enter number of Customers:0
+Enter Business 3 name: Fipp
+Fipp does not exist,Do you want to add current Business,press 1 to confirm,0 to continue: 1
+Enter Location x and y coordinates space separated: 4 2
+Enter number of Owners:1
+Enter Owner 1 name: Foo3
+Enter number of Customers:1
+Enter Customer 1 name: Foo1
+Enter Mode(Enter 14 to Show Menu again): 9
+Printing All Nodes of network
+
+Printing All Individuals
+
+Individual Descrip: Id: 1 Name of Individual: Foo1
+Date of Birth: 1 January 2020
+Created on: Wed Jan 13 08:13:26 IST 2021
+
+
+Individual Descrip: Id: 2 Name of Individual: Foo2
+Date of Birth: 1 February 1999
+Created on: Wed Jan 13 08:13:41 IST 2021
+
+
+Individual Descrip: Id: 3 Name of Individual: Foo3
+Date of Birth: 2 March 1998
+Created on: Wed Jan 13 08:14:00 IST 2021
+
+
+Individual Descrip: Id: 4 Name of Individual: Foo4
+Date of Birth: 1 January 2000
+Created on: Wed Jan 13 08:26:16 IST 2021
+
+
+Individual Descrip: Id: 5 Name of Individual: Fikh
+Date of Birth: 1 February 1999
+Created on: Wed Jan 13 08:26:47 IST 2021
+
+
+Printing All Businesses
+
+Business Descrip: Id: 6 Name of Business: Fio
+Location : ( 9.000000 ,1.000000 )
+Created on: Wed Jan 13 08:26:59 IST 2021
+
+
+Business Descrip: Id: 7 Name of Business: Fazon
+Location : ( 4.000000 ,3.000000 )
+Created on: Wed Jan 13 08:27:22 IST 2021
+
+
+Business Descrip: Id: 8 Name of Business: Fipp
+Location : ( 4.000000 ,2.000000 )
+Created on: Wed Jan 13 08:28:03 IST 2021
+
+
+Printing All Groups
+
+Group Descrip: Id: 9 Name of Group: Close_Friend
+Created on: Wed Jan 13 08:28:03 IST 2021
+
+
+Enter Mode(Enter 14 to Show Menu again): 1
+Enter Type of Entity(i:Individual,b:Business,o:Organisation,g:Group)
+o
+Enter Organisation Name: SaveFoo
+Enter Location x and y coordinates space separated: 4 2
+Enter number of Members:2
+Enter Member 1 name: Foo1
+Enter Member 2 name: Foo2
+Enter Mode(Enter 14 to Show Menu again): 14
+Menu:
+1.Enter 1 to create an entity
+2.Enter 2 to add Customer of a Business
+3.Enter 3 to add Owner of a Business
+4.Enter 4 to add Member of a Group
+5.Enter 5 to add Member of an Organisation
+6.Enter 6 to delete entity
+7.Enter 7 to search for an entity
+8.Enter 8 to print all entities connected to some entity
+9.Enter 9 to Print All nodes
+10.Eneter 10 to post content
+11.Enter 11 to get all content posted by an entity
+12.Enter 12 to print content of all nodes linked to some node 
+13.Enter 13 to search by Content: 
+14.Enter 14 to display Menu again
+15.Enter 0 to exit 
+Enter Mode(Enter 14 to Show Menu again): 2
+Enter Business name: Fio
+Enter Individual Customer name:Foo6
+No Individual with name Foo6.Do you want to create one,Enter 1 to confirm,0 else: 1
+Enter Date of Birth as day,month and year space separated: 1 1 1999
+Enter Mode(Enter 14 to Show Menu again): 3
+Enter Business name: Fio
+Enter Individual Owner name:Foo7
+No Individual with name Foo7.Do you want to create one,Enter 1 to confirm,0 else: 1
+Enter Date of Birth as day,month and year space separated: 1 1 1999
+Enter Mode(Enter 14 to Show Menu again): 4
+Enter Group name: Close_Friend
+Enter i for Individual,b for adding Business member: b
+Enter Business name:Fio
+Enter Mode(Enter 14 to Show Menu again): 5
+Enter Organisation name: SaveFoo
+Enter Individual name:Foo9
+No Individual with name Foo9.Do you want to create one,Enter 1 to confirm,0 else: 1
+Enter Date of Birth as day,month and year space separated: 1 1 1999
+Enter Mode(Enter 14 to Show Menu again): 7
+Enter mode of search , type for search by type 
+name for search by name, and date for seach by birth date:date
+Enter day month and year space separated: 1 1 1999
+Searching for all Individuals with Birth Day, 1 January 1999
+
+Individual : Id: 11 Name of Individual: Foo6
+Date of Birth: 1 January 1999
+Created on: Wed Jan 13 08:40:45 IST 2021
+
+Individual : Id: 12 Name of Individual: Foo7
+Date of Birth: 1 January 1999
+Created on: Wed Jan 13 08:41:01 IST 2021
+
+Individual : Id: 13 Name of Individual: Foo9
+Date of Birth: 1 January 1999
+Created on: Wed Jan 13 08:41:56 IST 2021
+
+Enter Mode(Enter 14 to Show Menu again): 7
+Enter mode of search , type for search by type 
+name for search by name, and date for seach by birth date:type
+Enter Type of Entity to search(i:Individual,b:Business,o:Organisation,g:Group)
+b
+Printing all Businesses
+Business : Id: 6 Name of Business: Fio
+Location : ( 9.000000 ,1.000000 )
+Created on: Wed Jan 13 08:26:59 IST 2021
+
+Business : Id: 7 Name of Business: Fazon
+Location : ( 4.000000 ,3.000000 )
+Created on: Wed Jan 13 08:27:22 IST 2021
+
+Business : Id: 8 Name of Business: Fipp
+Location : ( 4.000000 ,2.000000 )
+Created on: Wed Jan 13 08:28:03 IST 2021
+
+Enter Mode(Enter 14 to Show Menu again): 7
+Enter mode of search , type for search by type 
+name for search by name, and date for seach by birth date:name
+Enter Name: 
+Fio
+Searching for all nodes with name, Fio
+Business  : Id: 6 Name of Business: Fio
+Location : ( 9.000000 ,1.000000 )
+Created on: Wed Jan 13 08:26:59 IST 2021
+
+Enter Mode(Enter 14 to Show Menu again): 8
+Enter type of node, i for Individual,b for Business,o for Organisation,g for Group
+b
+Enter the name of Node whose linked nodes are to be Printed: Fio
+Printing all linked nodes to Business Fio
+Customer : Id: 1 Name of Individual: Foo1
+Date of Birth: 1 January 2020
+Created on: Wed Jan 13 08:13:26 IST 2021
+
+Customer : Id: 2 Name of Individual: Foo2
+Date of Birth: 1 February 1999
+Created on: Wed Jan 13 08:13:41 IST 2021
+
+Customer : Id: 11 Name of Individual: Foo6
+Date of Birth: 1 January 1999
+Created on: Wed Jan 13 08:40:45 IST 2021
+
+Owner : Id: 5 Name of Individual: Fikh
+Date of Birth: 1 February 1999
+Created on: Wed Jan 13 08:26:47 IST 2021
+
+Member of Group: Id: 9 Name of Group: Close_Friend
+Created on: Wed Jan 13 08:28:03 IST 2021
+
+Owner : Id: 12 Name of Individual: Foo7
+Date of Birth: 1 January 1999
+Created on: Wed Jan 13 08:41:01 IST 2021
+
+Member of Group: Id: 9 Name of Group: Close_Friend
+Created on: Wed Jan 13 08:28:03 IST 2021
+
+
+Enter Mode(Enter 14 to Show Menu again): 14
+Menu:
+1.Enter 1 to create an entity
+2.Enter 2 to add Customer of a Business
+3.Enter 3 to add Owner of a Business
+4.Enter 4 to add Member of a Group
+5.Enter 5 to add Member of an Organisation
+6.Enter 6 to delete entity
+7.Enter 7 to search for an entity
+8.Enter 8 to print all entities connected to some entity
+9.Enter 9 to Print All nodes
+10.Eneter 10 to post content
+11.Enter 11 to get all content posted by an entity
+12.Enter 12 to print content of all nodes linked to some node 
+13.Enter 13 to search by Content: 
+14.Enter 14 to display Menu again
+15.Enter 0 to exit 
+Enter Mode(Enter 14 to Show Menu again): 9
+Printing All Nodes of network
+
+Printing All Individuals
+
+Individual Descrip: Id: 1 Name of Individual: Foo1
+Date of Birth: 1 January 2020
+Created on: Wed Jan 13 08:13:26 IST 2021
+
+
+Individual Descrip: Id: 2 Name of Individual: Foo2
+Date of Birth: 1 February 1999
+Created on: Wed Jan 13 08:13:41 IST 2021
+
+
+Individual Descrip: Id: 3 Name of Individual: Foo3
+Date of Birth: 2 March 1998
+Created on: Wed Jan 13 08:14:00 IST 2021
+
+
+Individual Descrip: Id: 4 Name of Individual: Foo4
+Date of Birth: 1 January 2000
+Created on: Wed Jan 13 08:26:16 IST 2021
+
+
+Individual Descrip: Id: 5 Name of Individual: Fikh
+Date of Birth: 1 February 1999
+Created on: Wed Jan 13 08:26:47 IST 2021
+
+
+Individual Descrip: Id: 11 Name of Individual: Foo6
+Date of Birth: 1 January 1999
+Created on: Wed Jan 13 08:40:45 IST 2021
+
+
+Individual Descrip: Id: 12 Name of Individual: Foo7
+Date of Birth: 1 January 1999
+Created on: Wed Jan 13 08:41:01 IST 2021
+
+
+Individual Descrip: Id: 13 Name of Individual: Foo9
+Date of Birth: 1 January 1999
+Created on: Wed Jan 13 08:41:56 IST 2021
+
+
+Printing All Businesses
+
+Business Descrip: Id: 6 Name of Business: Fio
+Location : ( 9.000000 ,1.000000 )
+Created on: Wed Jan 13 08:26:59 IST 2021
+
+
+Business Descrip: Id: 7 Name of Business: Fazon
+Location : ( 4.000000 ,3.000000 )
+Created on: Wed Jan 13 08:27:22 IST 2021
+
+
+Business Descrip: Id: 8 Name of Business: Fipp
+Location : ( 4.000000 ,2.000000 )
+Created on: Wed Jan 13 08:28:03 IST 2021
+
+
+Printing All Organisations
+
+Organisation Descrip: Id: 10 Name of Individual: SaveFoo
+Location : ( 4.000000 ,2.000000 )
+Created on: Wed Jan 13 08:39:59 IST 2021
+
+
+Printing All Groups
+
+Group Descrip: Id: 9 Name of Group: Close_Friend
+Created on: Wed Jan 13 08:28:03 IST 2021
+
+
+Enter Mode(Enter 14 to Show Menu again): 10
+Enter type of node, i for Individual,b for Business,o for Organisation,g for Group
+i
+Enter the name of Node whose content need to be posted: foo1
+Sorry!No Individual with name foo1
+Enter Mode(Enter 14 to Show Menu again): 10
+Enter type of node, i for Individual,b for Business,o for Organisation,g for Group
+i
+Enter the name of Node whose content need to be posted: Foo1
+Enter new Content: #Post1
+Enter Mode(Enter 14 to Show Menu again): 10
+Enter type of node, i for Individual,b for Business,o for Organisation,g for Group
+b
+Enter the name of Node whose content need to be posted: Fio
+Enter new Content: #Connectivity++
+Enter Mode(Enter 14 to Show Menu again): 11
+Enter type of node, i for Individual,b for Business,o for Organisation,g for Group
+i
+Enter the name of Node whose content need to be Printed: Foo1
+Content Posted by Foo1:
+1. #Post1
+Enter Mode(Enter 14 to Show Menu again): 12
+Enter type of node, i for Individual,b for Business,o for Organisation,g for Group
+i
+Enter the name of Node whose content need to be Printed: Foo1
+Content of all Linked nodes of Foo1:
+Content Posted by Business, Fio:
+1. #Connectivity++
+Content Posted by Business, Fipp:
+No Content Available!
+Content Posted by Group, Close_Friend:
+No Content Available!
+Content Posted by Organisation, SaveFoo:
+No Content Available!
+Enter Mode(Enter 14 to Show Menu again): 13
+Enter content to search: #Post1
+Searching By Content ,"#Post1"
+
+Individual: Id: 1 Name of Individual: Foo1
+Date of Birth: 1 January 2020
+Created on: Wed Jan 13 08:13:26 IST 2021
+
+Enter Mode(Enter 14 to Show Menu again): 14
+Menu:
+1.Enter 1 to create an entity
+2.Enter 2 to add Customer of a Business
+3.Enter 3 to add Owner of a Business
+4.Enter 4 to add Member of a Group
+5.Enter 5 to add Member of an Organisation
+6.Enter 6 to delete entity
+7.Enter 7 to search for an entity
+8.Enter 8 to print all entities connected to some entity
+9.Enter 9 to Print All nodes
+10.Eneter 10 to post content
+11.Enter 11 to get all content posted by an entity
+12.Enter 12 to print content of all nodes linked to some node 
+13.Enter 13 to search by Content: 
+14.Enter 14 to display Menu again
+15.Enter 0 to exit 
+Enter Mode(Enter 14 to Show Menu again): 7
+Enter mode of search , type for search by type 
+name for search by name, and date for seach by birth date:name
+Enter Name: 
+Fio
+Searching for all nodes with name, Fio
+Business  : Id: 6 Name of Business: Fio
+Location : ( 9.000000 ,1.000000 )
+Created on: Wed Jan 13 08:26:59 IST 2021
+
+Enter Mode(Enter 14 to Show Menu again): 8
+Enter type of node, i for Individual,b for Business,o for Organisation,g for Group
+i
+Enter the name of Node whose linked nodes are to be Printed: Foo1
+Printing all nodes Connected to Organisation,Foo1
+Customer of Business : Id: 6 Name of Business: Fio
+Location : ( 9.000000 ,1.000000 )
+Created on: Wed Jan 13 08:26:59 IST 2021
+
+Customer of Business : Id: 8 Name of Business: Fipp
+Location : ( 4.000000 ,2.000000 )
+Created on: Wed Jan 13 08:28:03 IST 2021
+
+Member of Group: Id: 9 Name of Group: Close_Friend
+Created on: Wed Jan 13 08:28:03 IST 2021
+
+Member of Organisation: Id: 10 Name of Individual: SaveFoo
+Location : ( 4.000000 ,2.000000 )
+Created on: Wed Jan 13 08:39:59 IST 2021
+
+
+Enter Mode(Enter 14 to Show Menu again): 6
+Enter Type of Entity to delete(i:Individual,b:Business,o:Organisation,g:Group)
+b
+Enter name of Business: Fio
+Enter Mode(Enter 14 to Show Menu again): 8
+Enter type of node, i for Individual,b for Business,o for Organisation,g for Group
+i
+Enter the name of Node whose linked nodes are to be Printed: Foo1
+Printing all nodes Connected to Organisation,Foo1
+Customer of Business : Id: 8 Name of Business: Fipp
+Location : ( 4.000000 ,2.000000 )
+Created on: Wed Jan 13 08:28:03 IST 2021
+
+Member of Group: Id: 9 Name of Group: Close_Friend
+Created on: Wed Jan 13 08:28:03 IST 2021
+
+Member of Organisation: Id: 10 Name of Individual: SaveFoo
+Location : ( 4.000000 ,2.000000 )
+Created on: Wed Jan 13 08:39:59 IST 2021
+
+
+Enter Mode(Enter 14 to Show Menu again): 9
+Printing All Nodes of network
+
+Printing All Individuals
+
+Individual Descrip: Id: 1 Name of Individual: Foo1
+Date of Birth: 1 January 2020
+Created on: Wed Jan 13 08:13:26 IST 2021
+
+
+Individual Descrip: Id: 2 Name of Individual: Foo2
+Date of Birth: 1 February 1999
+Created on: Wed Jan 13 08:13:41 IST 2021
+
+
+Individual Descrip: Id: 3 Name of Individual: Foo3
+Date of Birth: 2 March 1998
+Created on: Wed Jan 13 08:14:00 IST 2021
+
+
+Individual Descrip: Id: 4 Name of Individual: Foo4
+Date of Birth: 1 January 2000
+Created on: Wed Jan 13 08:26:16 IST 2021
+
+
+Individual Descrip: Id: 5 Name of Individual: Fikh
+Date of Birth: 1 February 1999
+Created on: Wed Jan 13 08:26:47 IST 2021
+
+
+Individual Descrip: Id: 11 Name of Individual: Foo6
+Date of Birth: 1 January 1999
+Created on: Wed Jan 13 08:40:45 IST 2021
+
+
+Individual Descrip: Id: 12 Name of Individual: Foo7
+Date of Birth: 1 January 1999
+Created on: Wed Jan 13 08:41:01 IST 2021
+
+
+Individual Descrip: Id: 13 Name of Individual: Foo9
+Date of Birth: 1 January 1999
+Created on: Wed Jan 13 08:41:56 IST 2021
+
+
+Printing All Businesses
+
+Business Descrip: Id: 7 Name of Business: Fazon
+Location : ( 4.000000 ,3.000000 )
+Created on: Wed Jan 13 08:27:22 IST 2021
+
+
+Business Descrip: Id: 8 Name of Business: Fipp
+Location : ( 4.000000 ,2.000000 )
+Created on: Wed Jan 13 08:28:03 IST 2021
+
+
+Printing All Organisations
+
+Organisation Descrip: Id: 10 Name of Individual: SaveFoo
+Location : ( 4.000000 ,2.000000 )
+Created on: Wed Jan 13 08:39:59 IST 2021
+
+
+Printing All Groups
+
+Group Descrip: Id: 9 Name of Group: Close_Friend
+Created on: Wed Jan 13 08:28:03 IST 2021
+
+
+Enter Mode(Enter 14 to Show Menu again): 0

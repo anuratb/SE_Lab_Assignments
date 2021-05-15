@@ -1,0 +1,8 @@
+#users
+<Ram: Shyam, Jodu, Modhu>
+<Shyam: Ram, Modhu>
+<Jodu: >
+<Modhu: Ram>
+#groups
+<CodeClub: Ram, Shyam, Modhu>
+<DebSoc: Jodu, Modhu>

@@ -1,0 +1,40 @@
+Constructing from size: v1: < 0, 0, 0, 0, 0 >
+Constructing from size: v2: < 0, 0, 0, 0, 0, 0, 0 >
+Constructing from list: v3: < 1, 2, 3, 4, 5 >
+After Assigning values to v1 and v2 
+v1: < 0, 1, 2, 3, 4 >
+v2: < 0, 1, 2, 3, 4, 5, 6 >
+
+Length of v1: 5
+Length of v2: 7
+Length of v3: 5
+
+v1[2]: 2
+
+v1: < 0, 1, 2, 3, 4 >
+v3: < 1, 2, 3, 4, 5 >
+v1 + v3 = < 1, 3, 5, 7, 9 >
+v1 == v3: False
+v4 = < 0, 1, 2, 3, 4 >
+v1 == v4: True
+
+v1 != v3: True
+v1 != v4: False
+
+v5: < 5, 8, 1, 3, -1 >
+v3: < 1, 2, 3, 4, 5 >
+v5 - v3 = < 4, 6, -2, -1, -6 >
+
+v3 = < 1, 2, 3, 4, 5 >
+-v3 = < -1, -2, -3, -4, -5 >
+
+v2: < 0, 1, 2, 3, 4, 5, 6 >
+Broadcasting: 
+v2 * 3 = < 0, 3, 6, 9, 12, 15, 18 >
+3 * v2 = < 0, 3, 6, 9, 12, 15, 18 >
+
+v4: < 0, 1, 2, 3, 4 >
+v3: < 1, 2, 3, 4, 5 >
+Dot Product: 
+v4 * v3 = 40
+v3 * v4 = 40
